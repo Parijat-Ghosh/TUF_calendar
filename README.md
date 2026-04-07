@@ -6,7 +6,6 @@ A polished, interactive, and responsive calendar component inspired by a physica
 
 ## 🚀 Live Demo
 
-👉 (Add your deployed link here)
 
 ---
 
