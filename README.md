@@ -1,6 +1,7 @@
 # 📅 Interactive Wall Calendar Component
 
-A premium, interactive calendar component inspired by real-world wall calendars, built with a strong focus on **UX, performance, and clean frontend architecture**.
+A premium, interactive calendar inspired by real-world wall calendars, crafted with a strong focus on ✨ intuitive UX, ⚡ performance, and 🧩 clean frontend architecture.
+Designed to deliver a seamless planning experience with elegant visuals and smooth interactions.
 
 ---
 
