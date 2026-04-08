@@ -51,10 +51,10 @@ This solution introduces:
 
 
 ![Calendar View](./screenshots/calendar-view.jpg)
-*Calendar overview, the user interface*
+*Calendar overview, this is the user interface*
 
-![Notes Creation](./screenshots/notes-creationjpg
-*Creation of new notes*
+![Notes Creation](./screenshots/notes-creationjpg)
+*Creation of new notes with a range of dates*
 
 ![Notes Retrieval](./screenshots/notes-retrieval.jpg)
 *Retrival of notes which are saved in the local storage of the browser*
