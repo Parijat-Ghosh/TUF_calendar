@@ -10,7 +10,7 @@ interface HeaderProps {
   onToday: () => void;
 }
 
-const Header: React.FC<HeaderProps> = ({ monthName, year, onPrev, onNext, onToday }) => {
+const Header: React.FC<HeaderProps> = ({ monthName, onPrev, onNext, onToday }) => {
   return (
     <div className="flex items-center justify-between mb-8 px-2">
       <div className="flex flex-col">

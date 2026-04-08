@@ -1,11 +1,11 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import Header from './components/Header';
 import CalendarGrid from './components/CalendarGrid';
 import NotesPanel from './components/NotesPanel';
 import ImageSection from './components/ImageSection';
 import NoteModal from './components/NoteModal';
-import { MONTHS, formatDateKey } from './utils';
+import { MONTHS} from './utils';
 import type { DateRange, Note, Notes } from './types';
 
 export default function App() {

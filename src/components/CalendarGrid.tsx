@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+// import { motion, AnimatePresence } from 'motion/react';
 import { DAYS_OF_WEEK, getMonthData, isSameDay, isBetween, formatDateKey } from '../utils';
 import DayCell from './DayCell';
 import type { DateRange, Notes } from '../types';
@@ -17,7 +17,7 @@ const CalendarGrid: React.FC<CalendarGridProps> = ({
   range, 
   notes, 
   onDateClick, 
-  onDateHover = (date: Date) => {} 
+  onDateHover = () => {} 
 }) => {
   const year = currentDate.getFullYear();
   const month = currentDate.getMonth();
