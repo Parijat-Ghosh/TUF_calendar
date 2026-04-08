@@ -1,91 +1,117 @@
 # 📅 Interactive Wall Calendar Component
 
-A polished, interactive, and responsive calendar component inspired by a physical wall calendar design. Built using React and Tailwind CSS, this project focuses on delivering a clean UI, smooth user experience, and efficient frontend architecture.
+A premium, interactive calendar component inspired by a real-world wall calendar. This project focuses on delivering a **clean UI, smooth UX, and production-level frontend architecture** using modern web technologies.
 
 ---
 
 ## 🚀 Live Demo
 
+👉 https://tuf-calendar-zr77-ajlwueqo9-parijat-ghoshs-projects.vercel.app/
 
 ---
 
 ## 🎥 Demo Video
 
-👉 (Add your Loom / YouTube link here)
+👉 https://drive.google.com/file/d/1jUMSF3kxMs1E9uPvGCUw5LQN8ucZSx6_/view
 
 ---
 
 ## 🧠 Project Overview
 
-This project was developed as part of a frontend engineering challenge. The goal was to transform a static wall calendar design into a fully functional and interactive web component.
+This project was built as part of a frontend engineering challenge to transform a **static calendar design into a fully interactive web application**.
 
-The application allows users to:
+It demonstrates:
 
-* Select a range of dates
-* Add and persist notes
-* Interact with a responsive and visually appealing calendar UI
+* Strong component architecture
+* Thoughtful state management
+* Real-world UX design decisions
+* Clean and scalable frontend practices
+
+---
+
+## 🖼️ UI Preview
+
+### 📆 Calendar View
+
+![Calendar View](./screenshots/calendar-view.png)
+
+### 📝 Notes Creation (Date Range)
+
+![Notes Creation](./screenshots/notes-creation.png)
+
+### 🔍 Notes Retrieval (Modal View)
+
+![Notes Retrieval](./screenshots/notes-retrieval.png)
 
 ---
 
 ## ✨ Features
 
-### 📆 Date Range Selection
+### 📆 Interactive Date Range Selection
 
-* Select start and end dates
-* Visual highlight for:
+* Click-based range selection (start → end)
+* Visual distinction for:
 
   * Start date
   * End date
-  * Dates in between
-* Dynamic range reset on new selection
+  * In-range dates
+* Intelligent range reset behavior
 
-### 📝 Notes System
+---
 
-* Add notes for selected date ranges
-* Separate fields for:
+### 📝 Persistent Notes System
+
+* Notes tied to **selected date ranges**
+* Structured data:
 
   * Title
   * Content
-* Notes are persisted using **localStorage**
-* Previously saved notes auto-load on selecting the same date range
+* Auto-load notes on re-selection
+* Data persistence using **localStorage**
 
-### 🎨 Wall Calendar UI
+---
 
-* Inspired by real-world wall calendars
-* Includes:
+### 🎨 Wall Calendar UI Design
 
-  * Hero image section
-  * Calendar grid
-  * Notes panel
-* Clean layout with proper visual hierarchy
+* Inspired by physical wall calendars
+* Dedicated **hero image section**
+* Clean layout with strong visual hierarchy
+* Minimal, modern design system
 
-### 📱 Fully Responsive Design
+---
 
-* Desktop: Structured layout (image + calendar + notes)
-* Mobile: Stacked layout for better usability
-* Optimized for touch interactions
+### 📱 Fully Responsive Layout
 
-### ✨ UI/UX Enhancements
+* Desktop: Multi-panel layout (image + calendar + notes)
+* Mobile: Stacked layout with touch-friendly interactions
+* Seamless responsiveness across devices
 
-* Smooth hover effects
-* Interactive date selection feedback
-* Clear visual states for user actions
+---
+
+### ✨ UX Enhancements
+
+* Smooth animations using Framer Motion
+* Hover and click feedback
+* Modal-based note viewing
+* Clear empty and active states
 
 ---
 
 ## 🛠 Tech Stack
 
-* **React (Vite)**
-* **JavaScript / TypeScript**
-* **Tailwind CSS**
-* **Framer Motion** (for animations)
-* **localStorage** (for persistence)
+| Category  | Technology    |
+| --------- | ------------- |
+| Framework | React (Vite)  |
+| Language  | TypeScript    |
+| Styling   | Tailwind CSS  |
+| Animation | Framer Motion |
+| Storage   | localStorage  |
 
 ---
 
-## 🧱 Project Structure
+## 🧱 Project Architecture
 
-```id="3kq8pn"
+```bash
 /src
   /components
     CalendarGrid.tsx
@@ -103,20 +129,23 @@ The application allows users to:
 
 ---
 
-## ⚙️ How It Works
+## ⚙️ Core Logic
 
-### Date Range Logic
+### 📆 Date Range Selection
 
 * First click → start date
 * Second click → end date
-* All dates between are automatically highlighted
+* Automatically calculates intermediate range
+* Supports hover-based preview
 
-### Notes Storage
+---
 
-* Notes are stored in browser using localStorage
-* Data format:
+### 💾 Notes Storage Strategy
 
-```id="l1a3w2"
+* Notes stored using browser `localStorage`
+* Key format:
+
+```json
 {
   "2026-01-05_to_2026-01-10": {
     "title": "Trip",
@@ -125,50 +154,53 @@ The application allows users to:
 }
 ```
 
-* Notes persist even after page refresh
+* Ensures persistence without backend
+* Optimized for simplicity and performance
+
+---
+
+## 🎯 Engineering Decisions
+
+* Chose **localStorage** over backend to align with frontend-only scope
+* Modular component design for scalability
+* Minimal state complexity with clear separation of concerns
+* Focused on UX-first development approach
+* Avoided unnecessary dependencies
 
 ---
 
 ## 🧪 Running Locally
 
-```bash id="m91k2c"
+```bash
 git clone https://github.com/Parijat-Ghosh/TUF_calendar
-cd TUF_calendar
+cd TUF_calendar/calendar
 npm install
 npm run dev
 ```
 
 ---
 
-## 🎯 Key Design Decisions
+## 📌 Future Enhancements
 
-* Used **localStorage** instead of backend (as per requirements)
-* Focused on **component modularity** for scalability
-* Prioritized **UX and responsiveness**
-* Avoided unnecessary complexity while maintaining clean architecture
-
----
-
-## 📌 Future Improvements
-
-* Add note indicators on calendar dates
-* Theme switching (light/dark mode)
-* Drag-to-select date range
-* Holiday/event markers
+* Note indicators on calendar cells
+* Dark / Light theme support
+* Drag-to-select date ranges
+* Holiday & event markers
+* Cloud sync (backend integration)
 
 ---
 
 ## 🙌 Acknowledgment
 
-This project was built as part of a frontend engineering task by takeUforward.
+This project was developed as part of a frontend engineering task by takeUforward.
 
 ---
 
 ## 📬 Contact
 
-* Name: Parijat Ghosh
+* **Parijat Ghosh**
 * GitHub: https://github.com/Parijat-Ghosh
 
 ---
 
-⭐ If you like this project, feel free to give it a star!
+⭐ If you found this project interesting, consider giving it a star!
