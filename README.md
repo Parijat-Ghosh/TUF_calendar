@@ -53,7 +53,7 @@ This solution introduces:
 ![Calendar View](./screenshots/calendar-view.jpg)
 *Calendar overview, this is the user interface*
 
-![Notes Creation](./screenshots/notes-creationjpg)
+![Notes Creation](./screenshots/notes-creation.jpg)
 *Creation of new notes with a range of dates*
 
 ![Notes Retrieval](./screenshots/notes-retrieval.jpg)
