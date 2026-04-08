@@ -49,17 +49,15 @@ This solution introduces:
 
 ## 🖼️ UI Preview
 
-### 📆 Calendar View
 
-![Calendar View](./screenshots/calendar-view.png)
+![Calendar View](./screenshots/calendar-view.jpg)
+*Calendar overview, the user interface*
 
-### 📝 Notes Creation (Date Range)
+![Notes Creation](./screenshots/notes-creationjpg
+*Creation of new notes*
 
-![Notes Creation](./screenshots/notes-creation.png)
-
-### 🔍 Notes Retrieval (Modal View)
-
-![Notes Retrieval](./screenshots/notes-retrieval.png)
+![Notes Retrieval](./screenshots/notes-retrieval.jpg)
+*Retrival of notes which are saved in the local storage of the browser*
 
 ---
 
