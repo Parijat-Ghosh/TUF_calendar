@@ -1,6 +1,6 @@
 # 📅 Interactive Wall Calendar Component
 
-A premium, interactive calendar component inspired by a real-world wall calendar. This project focuses on delivering a **clean UI, smooth UX, and production-level frontend architecture** using modern web technologies.
+A premium, interactive calendar component inspired by real-world wall calendars, built with a strong focus on **UX, performance, and clean frontend architecture**.
 
 ---
 
@@ -16,16 +16,34 @@ A premium, interactive calendar component inspired by a real-world wall calendar
 
 ---
 
-## 🧠 Project Overview
+## ⚡ Key Impacts
 
-This project was built as part of a frontend engineering challenge to transform a **static calendar design into a fully interactive web application**.
+| Metric            | Achievement                                               |
+| ----------------- | --------------------------------------------------------- |
+| UX Responsiveness | Smooth interactions with instant visual feedback          |
+| State Efficiency  | Optimized React state to avoid unnecessary re-renders     |
+| Persistence       | 100% client-side note retention via localStorage          |
+| Responsiveness    | Fully functional across desktop & mobile devices          |
+| Interaction Flow  | Reduced user friction with intuitive date-range selection |
 
-It demonstrates:
+---
 
-* Strong component architecture
-* Thoughtful state management
-* Real-world UX design decisions
-* Clean and scalable frontend practices
+## 🎯 Problem It Solves & Impact
+
+Traditional calendar UIs are either:
+
+* ❌ Static (no interactivity)
+* ❌ Cluttered and hard to use
+* ❌ Lack contextual note-taking
+
+This solution introduces:
+
+* **Seamless date range selection** → simplifies planning workflows
+* **Integrated note system** → reduces context switching
+* **Persistent client-side storage** → ensures data availability without backend
+* **Clean visual hierarchy** → improves usability and reduces cognitive load
+
+👉 Designed to mimic real-world usability while enhancing digital interaction.
 
 ---
 
@@ -45,71 +63,66 @@ It demonstrates:
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
 ### 📆 Interactive Date Range Selection
 
-* Click-based range selection (start → end)
-* Visual distinction for:
-
-  * Start date
-  * End date
-  * In-range dates
-* Intelligent range reset behavior
+* Click-based start → end selection
+* Dynamic in-range highlighting
+* Intelligent reset behavior
 
 ---
 
 ### 📝 Persistent Notes System
 
-* Notes tied to **selected date ranges**
-* Structured data:
+* Notes mapped to selected date ranges
+* Structured input:
 
   * Title
   * Content
-* Auto-load notes on re-selection
-* Data persistence using **localStorage**
+* Auto-fetch on re-selection
+* Stored using **localStorage**
 
 ---
 
-### 🎨 Wall Calendar UI Design
+### 🎨 Wall Calendar UI
 
-* Inspired by physical wall calendars
-* Dedicated **hero image section**
-* Clean layout with strong visual hierarchy
+* Hero image-driven layout
+* Balanced visual hierarchy
 * Minimal, modern design system
 
 ---
 
-### 📱 Fully Responsive Layout
+### 📱 Fully Responsive
 
-* Desktop: Multi-panel layout (image + calendar + notes)
-* Mobile: Stacked layout with touch-friendly interactions
-* Seamless responsiveness across devices
+* Desktop → multi-panel layout
+* Mobile → stacked UI
+* Touch-friendly interactions
 
 ---
 
 ### ✨ UX Enhancements
 
-* Smooth animations using Framer Motion
-* Hover and click feedback
+* Smooth animations (Framer Motion)
+* Hover + click feedback
 * Modal-based note viewing
-* Clear empty and active states
+* Clear empty states
 
 ---
 
 ## 🛠 Tech Stack
 
-| Category  | Technology    |
-| --------- | ------------- |
-| Framework | React (Vite)  |
-| Language  | TypeScript    |
-| Styling   | Tailwind CSS  |
-| Animation | Framer Motion |
-| Storage   | localStorage  |
+| Layer      | Technology    |
+| ---------- | ------------- |
+| Frontend   | React (Vite)  |
+| Language   | TypeScript    |
+| Styling    | Tailwind CSS  |
+| Animations | Framer Motion |
+| Storage    | localStorage  |
 
 ---
 
-## 🧱 Project Architecture
+## 🧱 Architecture Overview
 
 ```bash
 /src
@@ -135,15 +148,12 @@ It demonstrates:
 
 * First click → start date
 * Second click → end date
-* Automatically calculates intermediate range
-* Supports hover-based preview
+* Intermediate dates auto-calculated
+* Hover preview support
 
 ---
 
-### 💾 Notes Storage Strategy
-
-* Notes stored using browser `localStorage`
-* Key format:
+### 💾 Notes Storage Model
 
 ```json
 {
@@ -154,18 +164,19 @@ It demonstrates:
 }
 ```
 
-* Ensures persistence without backend
-* Optimized for simplicity and performance
+* Key-based mapping for quick retrieval
+* Fully client-side persistence
+* No backend dependency
 
 ---
 
 ## 🎯 Engineering Decisions
 
-* Chose **localStorage** over backend to align with frontend-only scope
-* Modular component design for scalability
-* Minimal state complexity with clear separation of concerns
-* Focused on UX-first development approach
-* Avoided unnecessary dependencies
+* Used **localStorage** to align with frontend-only scope
+* Modular component structure for maintainability
+* Clean separation of concerns
+* Minimal dependencies → better performance
+* Focused on UX-first implementation
 
 ---
 
@@ -182,17 +193,17 @@ npm run dev
 
 ## 📌 Future Enhancements
 
-* Note indicators on calendar cells
-* Dark / Light theme support
-* Drag-to-select date ranges
-* Holiday & event markers
-* Cloud sync (backend integration)
+* Calendar cell note indicators
+* Dark / Light theme
+* Drag-to-select range
+* Holiday markers
+* Backend sync (cloud storage)
 
 ---
 
 ## 🙌 Acknowledgment
 
-This project was developed as part of a frontend engineering task by takeUforward.
+Built as part of a frontend engineering challenge by takeUforward.
 
 ---
 
